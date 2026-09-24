@@ -50,6 +50,10 @@ does not certify the complete training split.
 
 The full-split findings and current gate are summarized in
 [`reports/phase0/summary.md`](reports/phase0/summary.md).
+To audit the official `navtrain` tokens against their four input frames and ten
+future frames, run `make audit-navtrain`. This command resumes per-log progress
+from `/tmp/replanworld_navtrain_screen`; its report is
+[`reports/phase0/navtrain_screen.json`](reports/phase0/navtrain_screen.json).
 
 ## Planned implementation order
 

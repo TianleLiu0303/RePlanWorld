@@ -2,7 +2,7 @@ PYTHON ?= python3
 WORKSPACE_ROOT ?= $(abspath ..)
 AUDIT_PYTHON ?= $(WORKSPACE_ROOT)/miniconda3/envs/lingbot-map/bin/python
 
-.PHONY: test audit-smoke audit-mini-full audit-trainval-full audit-full
+.PHONY: test audit-smoke audit-mini-full audit-trainval-full audit-full audit-navtrain
 
 test:
 	$(PYTHON) -m unittest discover -s tests -v
@@ -18,3 +18,6 @@ audit-trainval-full:
 
 audit-full:
 	$(AUDIT_PYTHON) -m replan_world.data.audit --config configs/audit.json --workspace-root $(WORKSPACE_ROOT) --max-logs-per-split 0 --checkpoint-dir /tmp/replanworld_audit_progress --resume --output reports/phase0/data_audit_full.json
+
+audit-navtrain:
+	$(AUDIT_PYTHON) -m replan_world.data.navtrain_screen --workspace-root $(WORKSPACE_ROOT) --resume --output reports/phase0/navtrain_screen.json
