@@ -1,0 +1,17 @@
+{
+  "timestamp_unit": "microseconds",
+  "cameras": ["CAM_F0", "CAM_L0", "CAM_R0", "CAM_L1", "CAM_R1", "CAM_L2", "CAM_R2", "CAM_B0"],
+  "checkpoint_search_roots": ["RePlanWorld", "WA-JEPA", "Drive-JEPA", "DriveDreamer-Policy", "SimWAM"],
+  "datasets": [
+    {
+      "name": "mini",
+      "log_dir": "dataset/navsim_logs/mini",
+      "sensor_dir": "dataset/sensor_blobs/mini"
+    },
+    {
+      "name": "trainval",
+      "log_dir": "data_aliyun/navsim_logs/trainval",
+      "sensor_dir": "data_aliyun/sensor_blobs/trainval"
+    }
+  ]
+}

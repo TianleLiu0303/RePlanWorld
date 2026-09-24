@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "replan-world"
+version = "0.0.1"
+description = "Replanning-consistent visual dynamics research on NAVSIM"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+
+[project.scripts]
+replanworld-audit = "replan_world.data.audit:main"
+
+[tool.setuptools.packages.find]
+include = ["replan_world*"]

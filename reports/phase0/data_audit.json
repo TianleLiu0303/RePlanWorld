@@ -1,0 +1,2450 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-09-24T07:39:06.900627+00:00",
+  "workspace_root": "/data/chaosheng",
+  "config_path": "/data/chaosheng/RePlanWorld/configs/audit.json",
+  "timestamp_unit": "microseconds",
+  "cameras": [
+    "CAM_F0",
+    "CAM_L0",
+    "CAM_R0",
+    "CAM_L1",
+    "CAM_R1",
+    "CAM_L2",
+    "CAM_R2",
+    "CAM_B0"
+  ],
+  "datasets": [
+    {
+      "name": "mini",
+      "status": "ok",
+      "log_dir": "/data/chaosheng/dataset/navsim_logs/mini",
+      "sensor_dir": "/data/chaosheng/dataset/sensor_blobs/mini",
+      "inventory": {
+        "log_pickle_files": 64,
+        "sensor_log_directories": 64,
+        "logs_with_sensor_directory": 64,
+        "logs_without_sensor_directory": 0
+      },
+      "coverage": {
+        "mode": "sampled",
+        "selected_log_count": 8,
+        "scanned_log_count": 8,
+        "resumed_log_count": 0,
+        "frame_stride": 1,
+        "selection": "evenly_spaced_sorted_log_filenames"
+      },
+      "camera_totals_checked": {
+        "CAM_F0": {
+          "checked": 6515,
+          "metadata_missing": 0,
+          "invalid_path": 0,
+          "file_missing": 0,
+          "file_found": 6515
+        },
+        "CAM_L0": {
+          "checked": 6515,
+          "metadata_missing": 0,
+          "invalid_path": 0,
+          "file_missing": 0,
+          "file_found": 6515
+        },
+        "CAM_R0": {
+          "checked": 6515,
+          "metadata_missing": 0,
+          "invalid_path": 0,
+          "file_missing": 0,
+          "file_found": 6515
+        },
+        "CAM_L1": {
+          "checked": 6515,
+          "metadata_missing": 0,
+          "invalid_path": 0,
+          "file_missing": 0,
+          "file_found": 6515
+        },
+        "CAM_R1": {
+          "checked": 6515,
+          "metadata_missing": 0,
+          "invalid_path": 0,
+          "file_missing": 0,
+          "file_found": 6515
+        },
+        "CAM_L2": {
+          "checked": 6515,
+          "metadata_missing": 0,
+          "invalid_path": 0,
+          "file_missing": 0,
+          "file_found": 6515
+        },
+        "CAM_R2": {
+          "checked": 6515,
+          "metadata_missing": 0,
+          "invalid_path": 0,
+          "file_missing": 0,
+          "file_found": 6515
+        },
+        "CAM_B0": {
+          "checked": 6515,
+          "metadata_missing": 0,
+          "invalid_path": 0,
+          "file_missing": 0,
+          "file_found": 6515
+        }
+      },
+      "logs": [
+        {
+          "log_file": "2021.05.12.22.00.38_veh-35_01008_01518.pkl",
+          "frame_count": 1020,
+          "checked_frame_count": 1020,
+          "sensor_log_directory_present": true,
+          "frame_keys": [
+            "anns",
+            "cams",
+            "can_bus",
+            "driving_command",
+            "ego2global",
+            "ego2global_rotation",
+            "ego2global_translation",
+            "ego_dynamic_state",
+            "flow_gt_final_path",
+            "frame_idx",
+            "lidar2ego",
+            "lidar2ego_rotation",
+            "lidar2ego_translation",
+            "lidar2global",
+            "lidar_path",
+            "log_name",
+            "log_token",
+            "map_location",
+            "occ_gt_final_path",
+            "roadblock_ids",
+            "sample_next",
+            "sample_prev",
+            "scene_name",
+            "scene_token",
+            "timestamp",
+            "token",
+            "traffic_lights",
+            "vehicle_name"
+          ],
+          "timestamps": {
+            "missing": 0,
+            "non_increasing_pairs": 0,
+            "first": 1620857889701076,
+            "last": 1620858399200574,
+            "median_interval_seconds": 0.500096,
+            "min_interval_seconds": 0.49934,
+            "max_interval_seconds": 0.500403
+          },
+          "pose_valid_frames": 1020,
+          "command_valid_frames": 1020,
+          "ego_dynamic_state_valid_frames": 1020,
+          "camera_counts": {
+            "CAM_F0": {
+              "checked": 1020,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 1020
+            },
+            "CAM_L0": {
+              "checked": 1020,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 1020
+            },
+            "CAM_R0": {
+              "checked": 1020,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 1020
+            },
+            "CAM_L1": {
+              "checked": 1020,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 1020
+            },
+            "CAM_R1": {
+              "checked": 1020,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 1020
+            },
+            "CAM_L2": {
+              "checked": 1020,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 1020
+            },
+            "CAM_R2": {
+              "checked": 1020,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 1020
+            },
+            "CAM_B0": {
+              "checked": 1020,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 1020
+            }
+          },
+          "missing_image_examples": []
+        },
+        {
+          "log_file": "2021.06.07.18.53.26_veh-26_00005_00427.pkl",
+          "frame_count": 844,
+          "checked_frame_count": 844,
+          "sensor_log_directory_present": true,
+          "frame_keys": [
+            "anns",
+            "cams",
+            "can_bus",
+            "driving_command",
+            "ego2global",
+            "ego2global_rotation",
+            "ego2global_translation",
+            "ego_dynamic_state",
+            "flow_gt_final_path",
+            "frame_idx",
+            "lidar2ego",
+            "lidar2ego_rotation",
+            "lidar2ego_translation",
+            "lidar2global",
+            "lidar_path",
+            "log_name",
+            "log_token",
+            "map_location",
+            "occ_gt_final_path",
+            "roadblock_ids",
+            "sample_next",
+            "sample_prev",
+            "scene_name",
+            "scene_token",
+            "timestamp",
+            "token",
+            "traffic_lights",
+            "vehicle_name"
+          ],
+          "timestamps": {
+            "missing": 0,
+            "non_increasing_pairs": 0,
+            "first": 1623106479890967,
+            "last": 1623106901392905,
+            "median_interval_seconds": 0.499986,
+            "min_interval_seconds": 0.49948,
+            "max_interval_seconds": 0.500753
+          },
+          "pose_valid_frames": 844,
+          "command_valid_frames": 844,
+          "ego_dynamic_state_valid_frames": 844,
+          "camera_counts": {
+            "CAM_F0": {
+              "checked": 844,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 844
+            },
+            "CAM_L0": {
+              "checked": 844,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 844
+            },
+            "CAM_R0": {
+              "checked": 844,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 844
+            },
+            "CAM_L1": {
+              "checked": 844,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 844
+            },
+            "CAM_R1": {
+              "checked": 844,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 844
+            },
+            "CAM_L2": {
+              "checked": 844,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 844
+            },
+            "CAM_R2": {
+              "checked": 844,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 844
+            },
+            "CAM_B0": {
+              "checked": 844,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 844
+            }
+          },
+          "missing_image_examples": []
+        },
+        {
+          "log_file": "2021.06.09.14.58.55_veh-35_01894_02311.pkl",
+          "frame_count": 834,
+          "checked_frame_count": 834,
+          "sensor_log_directory_present": true,
+          "frame_keys": [
+            "anns",
+            "cams",
+            "can_bus",
+            "driving_command",
+            "ego2global",
+            "ego2global_rotation",
+            "ego2global_translation",
+            "ego_dynamic_state",
+            "flow_gt_final_path",
+            "frame_idx",
+            "lidar2ego",
+            "lidar2ego_rotation",
+            "lidar2ego_translation",
+            "lidar2global",
+            "lidar_path",
+            "log_name",
+            "log_token",
+            "map_location",
+            "occ_gt_final_path",
+            "roadblock_ids",
+            "sample_next",
+            "sample_prev",
+            "scene_name",
+            "scene_token",
+            "timestamp",
+            "token",
+            "traffic_lights",
+            "vehicle_name"
+          ],
+          "timestamps": {
+            "missing": 0,
+            "non_increasing_pairs": 0,
+            "first": 1623267255700334,
+            "last": 1623267672201252,
+            "median_interval_seconds": 0.500085,
+            "min_interval_seconds": 0.499166,
+            "max_interval_seconds": 0.500505
+          },
+          "pose_valid_frames": 834,
+          "command_valid_frames": 834,
+          "ego_dynamic_state_valid_frames": 834,
+          "camera_counts": {
+            "CAM_F0": {
+              "checked": 834,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 834
+            },
+            "CAM_L0": {
+              "checked": 834,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 834
+            },
+            "CAM_R0": {
+              "checked": 834,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 834
+            },
+            "CAM_L1": {
+              "checked": 834,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 834
+            },
+            "CAM_R1": {
+              "checked": 834,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 834
+            },
+            "CAM_L2": {
+              "checked": 834,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 834
+            },
+            "CAM_R2": {
+              "checked": 834,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 834
+            },
+            "CAM_B0": {
+              "checked": 834,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 834
+            }
+          },
+          "missing_image_examples": []
+        },
+        {
+          "log_file": "2021.06.14.18.42.45_veh-12_03445_03902.pkl",
+          "frame_count": 909,
+          "checked_frame_count": 909,
+          "sensor_log_directory_present": true,
+          "frame_keys": [
+            "anns",
+            "cams",
+            "can_bus",
+            "driving_command",
+            "ego2global",
+            "ego2global_rotation",
+            "ego2global_translation",
+            "ego_dynamic_state",
+            "flow_gt_final_path",
+            "frame_idx",
+            "lidar2ego",
+            "lidar2ego_rotation",
+            "lidar2ego_translation",
+            "lidar2global",
+            "lidar_path",
+            "log_name",
+            "log_token",
+            "map_location",
+            "occ_gt_final_path",
+            "roadblock_ids",
+            "sample_next",
+            "sample_prev",
+            "scene_name",
+            "scene_token",
+            "timestamp",
+            "token",
+            "traffic_lights",
+            "vehicle_name"
+          ],
+          "timestamps": {
+            "missing": 0,
+            "non_increasing_pairs": 0,
+            "first": 1623714111699848,
+            "last": 1623714568200007,
+            "median_interval_seconds": 0.499989,
+            "min_interval_seconds": 0.49952,
+            "max_interval_seconds": 1.000593
+          },
+          "pose_valid_frames": 909,
+          "command_valid_frames": 909,
+          "ego_dynamic_state_valid_frames": 909,
+          "camera_counts": {
+            "CAM_F0": {
+              "checked": 909,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 909
+            },
+            "CAM_L0": {
+              "checked": 909,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 909
+            },
+            "CAM_R0": {
+              "checked": 909,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 909
+            },
+            "CAM_L1": {
+              "checked": 909,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 909
+            },
+            "CAM_R1": {
+              "checked": 909,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 909
+            },
+            "CAM_L2": {
+              "checked": 909,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 909
+            },
+            "CAM_R2": {
+              "checked": 909,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 909
+            },
+            "CAM_B0": {
+              "checked": 909,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 909
+            }
+          },
+          "missing_image_examples": []
+        },
+        {
+          "log_file": "2021.06.28.16.57.59_veh-26_00016_00484.pkl",
+          "frame_count": 936,
+          "checked_frame_count": 936,
+          "sensor_log_directory_present": true,
+          "frame_keys": [
+            "anns",
+            "cams",
+            "can_bus",
+            "driving_command",
+            "ego2global",
+            "ego2global_rotation",
+            "ego2global_translation",
+            "ego_dynamic_state",
+            "flow_gt_final_path",
+            "frame_idx",
+            "lidar2ego",
+            "lidar2ego_rotation",
+            "lidar2ego_translation",
+            "lidar2global",
+            "lidar_path",
+            "log_name",
+            "log_token",
+            "map_location",
+            "occ_gt_final_path",
+            "roadblock_ids",
+            "sample_next",
+            "sample_prev",
+            "scene_name",
+            "scene_token",
+            "timestamp",
+            "token",
+            "traffic_lights",
+            "vehicle_name"
+          ],
+          "timestamps": {
+            "missing": 0,
+            "non_increasing_pairs": 0,
+            "first": 1624899590999048,
+            "last": 1624900058496882,
+            "median_interval_seconds": 0.500003,
+            "min_interval_seconds": 0.499459,
+            "max_interval_seconds": 0.500596
+          },
+          "pose_valid_frames": 936,
+          "command_valid_frames": 936,
+          "ego_dynamic_state_valid_frames": 936,
+          "camera_counts": {
+            "CAM_F0": {
+              "checked": 936,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 936
+            },
+            "CAM_L0": {
+              "checked": 936,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 936
+            },
+            "CAM_R0": {
+              "checked": 936,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 936
+            },
+            "CAM_L1": {
+              "checked": 936,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 936
+            },
+            "CAM_R1": {
+              "checked": 936,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 936
+            },
+            "CAM_L2": {
+              "checked": 936,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 936
+            },
+            "CAM_R2": {
+              "checked": 936,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 936
+            },
+            "CAM_B0": {
+              "checked": 936,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 936
+            }
+          },
+          "missing_image_examples": []
+        },
+        {
+          "log_file": "2021.07.16.20.45.29_veh-35_01095_01486.pkl",
+          "frame_count": 782,
+          "checked_frame_count": 782,
+          "sensor_log_directory_present": true,
+          "frame_keys": [
+            "anns",
+            "cams",
+            "can_bus",
+            "driving_command",
+            "ego2global",
+            "ego2global_rotation",
+            "ego2global_translation",
+            "ego_dynamic_state",
+            "flow_gt_final_path",
+            "frame_idx",
+            "lidar2ego",
+            "lidar2ego_rotation",
+            "lidar2ego_translation",
+            "lidar2global",
+            "lidar_path",
+            "log_name",
+            "log_token",
+            "map_location",
+            "occ_gt_final_path",
+            "roadblock_ids",
+            "sample_next",
+            "sample_prev",
+            "scene_name",
+            "scene_token",
+            "timestamp",
+            "token",
+            "traffic_lights",
+            "vehicle_name"
+          ],
+          "timestamps": {
+            "missing": 0,
+            "non_increasing_pairs": 0,
+            "first": 1626469604601387,
+            "last": 1626469995100495,
+            "median_interval_seconds": 0.500067,
+            "min_interval_seconds": 0.49934,
+            "max_interval_seconds": 0.50055
+          },
+          "pose_valid_frames": 782,
+          "command_valid_frames": 782,
+          "ego_dynamic_state_valid_frames": 782,
+          "camera_counts": {
+            "CAM_F0": {
+              "checked": 782,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 782
+            },
+            "CAM_L0": {
+              "checked": 782,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 782
+            },
+            "CAM_R0": {
+              "checked": 782,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 782
+            },
+            "CAM_L1": {
+              "checked": 782,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 782
+            },
+            "CAM_R1": {
+              "checked": 782,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 782
+            },
+            "CAM_L2": {
+              "checked": 782,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 782
+            },
+            "CAM_R2": {
+              "checked": 782,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 782
+            },
+            "CAM_B0": {
+              "checked": 782,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 782
+            }
+          },
+          "missing_image_examples": []
+        },
+        {
+          "log_file": "2021.09.16.15.12.03_veh-42_01037_01434.pkl",
+          "frame_count": 794,
+          "checked_frame_count": 794,
+          "sensor_log_directory_present": true,
+          "frame_keys": [
+            "anns",
+            "cams",
+            "can_bus",
+            "driving_command",
+            "ego2global",
+            "ego2global_rotation",
+            "ego2global_translation",
+            "ego_dynamic_state",
+            "flow_gt_final_path",
+            "frame_idx",
+            "lidar2ego",
+            "lidar2ego_rotation",
+            "lidar2ego_translation",
+            "lidar2global",
+            "lidar_path",
+            "log_name",
+            "log_token",
+            "map_location",
+            "occ_gt_final_path",
+            "roadblock_ids",
+            "sample_next",
+            "sample_prev",
+            "scene_name",
+            "scene_token",
+            "timestamp",
+            "token",
+            "traffic_lights",
+            "vehicle_name"
+          ],
+          "timestamps": {
+            "missing": 0,
+            "non_increasing_pairs": 0,
+            "first": 1631806276499910,
+            "last": 1631806673000095,
+            "median_interval_seconds": 0.499993,
+            "min_interval_seconds": 0.499567,
+            "max_interval_seconds": 0.500533
+          },
+          "pose_valid_frames": 794,
+          "command_valid_frames": 794,
+          "ego_dynamic_state_valid_frames": 794,
+          "camera_counts": {
+            "CAM_F0": {
+              "checked": 794,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 794
+            },
+            "CAM_L0": {
+              "checked": 794,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 794
+            },
+            "CAM_R0": {
+              "checked": 794,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 794
+            },
+            "CAM_L1": {
+              "checked": 794,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 794
+            },
+            "CAM_R1": {
+              "checked": 794,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 794
+            },
+            "CAM_L2": {
+              "checked": 794,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 794
+            },
+            "CAM_R2": {
+              "checked": 794,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 794
+            },
+            "CAM_B0": {
+              "checked": 794,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 794
+            }
+          },
+          "missing_image_examples": []
+        },
+        {
+          "log_file": "2021.10.11.08.31.07_veh-50_01750_01948.pkl",
+          "frame_count": 396,
+          "checked_frame_count": 396,
+          "sensor_log_directory_present": true,
+          "frame_keys": [
+            "anns",
+            "cams",
+            "can_bus",
+            "driving_command",
+            "ego2global",
+            "ego2global_rotation",
+            "ego2global_translation",
+            "ego_dynamic_state",
+            "flow_gt_final_path",
+            "frame_idx",
+            "lidar2ego",
+            "lidar2ego_rotation",
+            "lidar2ego_translation",
+            "lidar2global",
+            "lidar_path",
+            "log_name",
+            "log_token",
+            "map_location",
+            "occ_gt_final_path",
+            "roadblock_ids",
+            "sample_next",
+            "sample_prev",
+            "scene_name",
+            "scene_token",
+            "timestamp",
+            "token",
+            "traffic_lights",
+            "vehicle_name"
+          ],
+          "timestamps": {
+            "missing": 0,
+            "non_increasing_pairs": 0,
+            "first": 1633942871199937,
+            "last": 1633943068700050,
+            "median_interval_seconds": 0.499966,
+            "min_interval_seconds": 0.499605,
+            "max_interval_seconds": 0.500471
+          },
+          "pose_valid_frames": 396,
+          "command_valid_frames": 396,
+          "ego_dynamic_state_valid_frames": 396,
+          "camera_counts": {
+            "CAM_F0": {
+              "checked": 396,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 396
+            },
+            "CAM_L0": {
+              "checked": 396,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 396
+            },
+            "CAM_R0": {
+              "checked": 396,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 396
+            },
+            "CAM_L1": {
+              "checked": 396,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 396
+            },
+            "CAM_R1": {
+              "checked": 396,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 396
+            },
+            "CAM_L2": {
+              "checked": 396,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 396
+            },
+            "CAM_R2": {
+              "checked": 396,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 396
+            },
+            "CAM_B0": {
+              "checked": 396,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 0,
+              "file_found": 396
+            }
+          },
+          "missing_image_examples": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "trainval",
+      "status": "ok",
+      "log_dir": "/data/chaosheng/data_aliyun/navsim_logs/trainval",
+      "sensor_dir": "/data/chaosheng/data_aliyun/sensor_blobs/trainval",
+      "inventory": {
+        "log_pickle_files": 1310,
+        "sensor_log_directories": 1192,
+        "logs_with_sensor_directory": 1192,
+        "logs_without_sensor_directory": 118
+      },
+      "coverage": {
+        "mode": "sampled",
+        "selected_log_count": 8,
+        "scanned_log_count": 8,
+        "resumed_log_count": 0,
+        "frame_stride": 1,
+        "selection": "evenly_spaced_sorted_log_filenames"
+      },
+      "camera_totals_checked": {
+        "CAM_F0": {
+          "checked": 4584,
+          "metadata_missing": 0,
+          "invalid_path": 0,
+          "file_missing": 3765,
+          "file_found": 819
+        },
+        "CAM_L0": {
+          "checked": 4584,
+          "metadata_missing": 0,
+          "invalid_path": 0,
+          "file_missing": 3765,
+          "file_found": 819
+        },
+        "CAM_R0": {
+          "checked": 4584,
+          "metadata_missing": 0,
+          "invalid_path": 0,
+          "file_missing": 3765,
+          "file_found": 819
+        },
+        "CAM_L1": {
+          "checked": 4584,
+          "metadata_missing": 0,
+          "invalid_path": 0,
+          "file_missing": 3765,
+          "file_found": 819
+        },
+        "CAM_R1": {
+          "checked": 4584,
+          "metadata_missing": 0,
+          "invalid_path": 0,
+          "file_missing": 3765,
+          "file_found": 819
+        },
+        "CAM_L2": {
+          "checked": 4584,
+          "metadata_missing": 0,
+          "invalid_path": 0,
+          "file_missing": 3765,
+          "file_found": 819
+        },
+        "CAM_R2": {
+          "checked": 4584,
+          "metadata_missing": 0,
+          "invalid_path": 0,
+          "file_missing": 3765,
+          "file_found": 819
+        },
+        "CAM_B0": {
+          "checked": 4584,
+          "metadata_missing": 0,
+          "invalid_path": 0,
+          "file_missing": 3765,
+          "file_found": 819
+        }
+      },
+      "logs": [
+        {
+          "log_file": "2021.05.12.19.36.12_veh-35_00005_00204.pkl",
+          "frame_count": 398,
+          "checked_frame_count": 398,
+          "sensor_log_directory_present": true,
+          "frame_keys": [
+            "anns",
+            "cams",
+            "can_bus",
+            "driving_command",
+            "ego2global",
+            "ego2global_rotation",
+            "ego2global_translation",
+            "ego_dynamic_state",
+            "flow_gt_final_path",
+            "frame_idx",
+            "lidar2ego",
+            "lidar2ego_rotation",
+            "lidar2ego_translation",
+            "lidar2global",
+            "lidar_path",
+            "log_name",
+            "log_token",
+            "map_location",
+            "occ_gt_final_path",
+            "roadblock_ids",
+            "sample_next",
+            "sample_prev",
+            "scene_name",
+            "scene_token",
+            "timestamp",
+            "token",
+            "traffic_lights",
+            "vehicle_name"
+          ],
+          "timestamps": {
+            "missing": 0,
+            "non_increasing_pairs": 0,
+            "first": 1620848221400701,
+            "last": 1620848419900615,
+            "median_interval_seconds": 0.500102,
+            "min_interval_seconds": 0.499378,
+            "max_interval_seconds": 0.500324
+          },
+          "pose_valid_frames": 398,
+          "command_valid_frames": 398,
+          "ego_dynamic_state_valid_frames": 398,
+          "camera_counts": {
+            "CAM_F0": {
+              "checked": 398,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 389,
+              "file_found": 9
+            },
+            "CAM_L0": {
+              "checked": 398,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 389,
+              "file_found": 9
+            },
+            "CAM_R0": {
+              "checked": 398,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 389,
+              "file_found": 9
+            },
+            "CAM_L1": {
+              "checked": 398,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 389,
+              "file_found": 9
+            },
+            "CAM_R1": {
+              "checked": 398,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 389,
+              "file_found": 9
+            },
+            "CAM_L2": {
+              "checked": 398,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 389,
+              "file_found": 9
+            },
+            "CAM_R2": {
+              "checked": 398,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 389,
+              "file_found": 9
+            },
+            "CAM_B0": {
+              "checked": 398,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 389,
+              "file_found": 9
+            }
+          },
+          "missing_image_examples": [
+            {
+              "frame_index": 0,
+              "camera": "CAM_F0",
+              "relative_path": "2021.05.12.19.36.12_veh-35_00005_00204/CAM_F0/a59241a622955fdc.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_L0",
+              "relative_path": "2021.05.12.19.36.12_veh-35_00005_00204/CAM_L0/4cceb2fabe6b5eca.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_R0",
+              "relative_path": "2021.05.12.19.36.12_veh-35_00005_00204/CAM_R0/b523ce0d9a7d5bf2.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_L1",
+              "relative_path": "2021.05.12.19.36.12_veh-35_00005_00204/CAM_L1/d87bc25f6eb65a6f.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_R1",
+              "relative_path": "2021.05.12.19.36.12_veh-35_00005_00204/CAM_R1/0965fddfcae4581b.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_L2",
+              "relative_path": "2021.05.12.19.36.12_veh-35_00005_00204/CAM_L2/91184284d9ce595c.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_R2",
+              "relative_path": "2021.05.12.19.36.12_veh-35_00005_00204/CAM_R2/baae280caf1e5133.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_B0",
+              "relative_path": "2021.05.12.19.36.12_veh-35_00005_00204/CAM_B0/99cef290b3d15c68.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_F0",
+              "relative_path": "2021.05.12.19.36.12_veh-35_00005_00204/CAM_F0/6c7e1145c55c56dd.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_L0",
+              "relative_path": "2021.05.12.19.36.12_veh-35_00005_00204/CAM_L0/f44209dccee1542a.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_R0",
+              "relative_path": "2021.05.12.19.36.12_veh-35_00005_00204/CAM_R0/e09c6c09ff9d507c.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_L1",
+              "relative_path": "2021.05.12.19.36.12_veh-35_00005_00204/CAM_L1/0f2f62f86b6b512e.jpg"
+            }
+          ]
+        },
+        {
+          "log_file": "2021.06.09.14.50.36_veh-26_01537_01600.pkl",
+          "frame_count": 125,
+          "checked_frame_count": 125,
+          "sensor_log_directory_present": true,
+          "frame_keys": [
+            "anns",
+            "cams",
+            "can_bus",
+            "driving_command",
+            "ego2global",
+            "ego2global_rotation",
+            "ego2global_translation",
+            "ego_dynamic_state",
+            "flow_gt_final_path",
+            "frame_idx",
+            "lidar2ego",
+            "lidar2ego_rotation",
+            "lidar2ego_translation",
+            "lidar2global",
+            "lidar_path",
+            "log_name",
+            "log_token",
+            "map_location",
+            "occ_gt_final_path",
+            "roadblock_ids",
+            "sample_next",
+            "sample_prev",
+            "scene_name",
+            "scene_token",
+            "timestamp",
+            "token",
+            "traffic_lights",
+            "vehicle_name"
+          ],
+          "timestamps": {
+            "missing": 0,
+            "non_increasing_pairs": 0,
+            "first": 1623266241699501,
+            "last": 1623266304199404,
+            "median_interval_seconds": 0.500016,
+            "min_interval_seconds": 0.499708,
+            "max_interval_seconds": 0.999797
+          },
+          "pose_valid_frames": 125,
+          "command_valid_frames": 125,
+          "ego_dynamic_state_valid_frames": 125,
+          "camera_counts": {
+            "CAM_F0": {
+              "checked": 125,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 90,
+              "file_found": 35
+            },
+            "CAM_L0": {
+              "checked": 125,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 90,
+              "file_found": 35
+            },
+            "CAM_R0": {
+              "checked": 125,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 90,
+              "file_found": 35
+            },
+            "CAM_L1": {
+              "checked": 125,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 90,
+              "file_found": 35
+            },
+            "CAM_R1": {
+              "checked": 125,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 90,
+              "file_found": 35
+            },
+            "CAM_L2": {
+              "checked": 125,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 90,
+              "file_found": 35
+            },
+            "CAM_R2": {
+              "checked": 125,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 90,
+              "file_found": 35
+            },
+            "CAM_B0": {
+              "checked": 125,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 90,
+              "file_found": 35
+            }
+          },
+          "missing_image_examples": [
+            {
+              "frame_index": 9,
+              "camera": "CAM_F0",
+              "relative_path": "2021.06.09.14.50.36_veh-26_01537_01600/CAM_F0/cb2d546332225603.jpg"
+            },
+            {
+              "frame_index": 9,
+              "camera": "CAM_L0",
+              "relative_path": "2021.06.09.14.50.36_veh-26_01537_01600/CAM_L0/cf3bccecfca05044.jpg"
+            },
+            {
+              "frame_index": 9,
+              "camera": "CAM_R0",
+              "relative_path": "2021.06.09.14.50.36_veh-26_01537_01600/CAM_R0/3cd439a7867f5ef9.jpg"
+            },
+            {
+              "frame_index": 9,
+              "camera": "CAM_L1",
+              "relative_path": "2021.06.09.14.50.36_veh-26_01537_01600/CAM_L1/d8d1b8db3e045986.jpg"
+            },
+            {
+              "frame_index": 9,
+              "camera": "CAM_R1",
+              "relative_path": "2021.06.09.14.50.36_veh-26_01537_01600/CAM_R1/f14a8c6a7efd5fd4.jpg"
+            },
+            {
+              "frame_index": 9,
+              "camera": "CAM_L2",
+              "relative_path": "2021.06.09.14.50.36_veh-26_01537_01600/CAM_L2/c2bdfebe63265056.jpg"
+            },
+            {
+              "frame_index": 9,
+              "camera": "CAM_R2",
+              "relative_path": "2021.06.09.14.50.36_veh-26_01537_01600/CAM_R2/6b9c24beedda5c10.jpg"
+            },
+            {
+              "frame_index": 9,
+              "camera": "CAM_B0",
+              "relative_path": "2021.06.09.14.50.36_veh-26_01537_01600/CAM_B0/b2cf0d5900d05866.jpg"
+            },
+            {
+              "frame_index": 10,
+              "camera": "CAM_F0",
+              "relative_path": "2021.06.09.14.50.36_veh-26_01537_01600/CAM_F0/17537b0f6c2b56df.jpg"
+            },
+            {
+              "frame_index": 10,
+              "camera": "CAM_L0",
+              "relative_path": "2021.06.09.14.50.36_veh-26_01537_01600/CAM_L0/09e90f0aa3ea5149.jpg"
+            },
+            {
+              "frame_index": 10,
+              "camera": "CAM_R0",
+              "relative_path": "2021.06.09.14.50.36_veh-26_01537_01600/CAM_R0/6b289249e022527b.jpg"
+            },
+            {
+              "frame_index": 10,
+              "camera": "CAM_L1",
+              "relative_path": "2021.06.09.14.50.36_veh-26_01537_01600/CAM_L1/745a862b5fbd5851.jpg"
+            }
+          ]
+        },
+        {
+          "log_file": "2021.06.14.13.28.41_veh-12_03312_03409.pkl",
+          "frame_count": 191,
+          "checked_frame_count": 191,
+          "sensor_log_directory_present": false,
+          "frame_keys": [
+            "anns",
+            "cams",
+            "can_bus",
+            "driving_command",
+            "ego2global",
+            "ego2global_rotation",
+            "ego2global_translation",
+            "ego_dynamic_state",
+            "flow_gt_final_path",
+            "frame_idx",
+            "lidar2ego",
+            "lidar2ego_rotation",
+            "lidar2ego_translation",
+            "lidar2global",
+            "lidar_path",
+            "log_name",
+            "log_token",
+            "map_location",
+            "occ_gt_final_path",
+            "roadblock_ids",
+            "sample_next",
+            "sample_prev",
+            "scene_name",
+            "scene_token",
+            "timestamp",
+            "token",
+            "traffic_lights",
+            "vehicle_name"
+          ],
+          "timestamps": {
+            "missing": 0,
+            "non_increasing_pairs": 0,
+            "first": 1623695095299656,
+            "last": 1623695191800110,
+            "median_interval_seconds": 0.499981,
+            "min_interval_seconds": 0.499699,
+            "max_interval_seconds": 1.000322
+          },
+          "pose_valid_frames": 191,
+          "command_valid_frames": 191,
+          "ego_dynamic_state_valid_frames": 191,
+          "camera_counts": {
+            "CAM_F0": {
+              "checked": 191,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 191,
+              "file_found": 0
+            },
+            "CAM_L0": {
+              "checked": 191,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 191,
+              "file_found": 0
+            },
+            "CAM_R0": {
+              "checked": 191,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 191,
+              "file_found": 0
+            },
+            "CAM_L1": {
+              "checked": 191,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 191,
+              "file_found": 0
+            },
+            "CAM_R1": {
+              "checked": 191,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 191,
+              "file_found": 0
+            },
+            "CAM_L2": {
+              "checked": 191,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 191,
+              "file_found": 0
+            },
+            "CAM_R2": {
+              "checked": 191,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 191,
+              "file_found": 0
+            },
+            "CAM_B0": {
+              "checked": 191,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 191,
+              "file_found": 0
+            }
+          },
+          "missing_image_examples": [
+            {
+              "frame_index": 0,
+              "camera": "CAM_F0",
+              "relative_path": "2021.06.14.13.28.41_veh-12_03312_03409/CAM_F0/68bb32800afa5e56.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_L0",
+              "relative_path": "2021.06.14.13.28.41_veh-12_03312_03409/CAM_L0/092eeb4047655645.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_R0",
+              "relative_path": "2021.06.14.13.28.41_veh-12_03312_03409/CAM_R0/ab488081779d5af8.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_L1",
+              "relative_path": "2021.06.14.13.28.41_veh-12_03312_03409/CAM_L1/bdd6a5e23d075291.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_R1",
+              "relative_path": "2021.06.14.13.28.41_veh-12_03312_03409/CAM_R1/7e1ec0d6ddcf5342.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_L2",
+              "relative_path": "2021.06.14.13.28.41_veh-12_03312_03409/CAM_L2/05ddfefce200555c.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_R2",
+              "relative_path": "2021.06.14.13.28.41_veh-12_03312_03409/CAM_R2/d283642c5ebb5a36.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_B0",
+              "relative_path": "2021.06.14.13.28.41_veh-12_03312_03409/CAM_B0/da92bfeae6f357d0.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_F0",
+              "relative_path": "2021.06.14.13.28.41_veh-12_03312_03409/CAM_F0/7b785da50cd75855.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_L0",
+              "relative_path": "2021.06.14.13.28.41_veh-12_03312_03409/CAM_L0/328da7000c4e512b.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_R0",
+              "relative_path": "2021.06.14.13.28.41_veh-12_03312_03409/CAM_R0/17c77ed6d8ab5958.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_L1",
+              "relative_path": "2021.06.14.13.28.41_veh-12_03312_03409/CAM_L1/9ff29c39ec1653fa.jpg"
+            }
+          ]
+        },
+        {
+          "log_file": "2021.06.14.18.42.45_veh-12_00968_01052.pkl",
+          "frame_count": 168,
+          "checked_frame_count": 168,
+          "sensor_log_directory_present": true,
+          "frame_keys": [
+            "anns",
+            "cams",
+            "can_bus",
+            "driving_command",
+            "ego2global",
+            "ego2global_rotation",
+            "ego2global_translation",
+            "ego_dynamic_state",
+            "flow_gt_final_path",
+            "frame_idx",
+            "lidar2ego",
+            "lidar2ego_rotation",
+            "lidar2ego_translation",
+            "lidar2global",
+            "lidar_path",
+            "log_name",
+            "log_token",
+            "map_location",
+            "occ_gt_final_path",
+            "roadblock_ids",
+            "sample_next",
+            "sample_prev",
+            "scene_name",
+            "scene_token",
+            "timestamp",
+            "token",
+            "traffic_lights",
+            "vehicle_name"
+          ],
+          "timestamps": {
+            "missing": 0,
+            "non_increasing_pairs": 0,
+            "first": 1623711634700308,
+            "last": 1623711718199942,
+            "median_interval_seconds": 0.499995,
+            "min_interval_seconds": 0.499568,
+            "max_interval_seconds": 0.500419
+          },
+          "pose_valid_frames": 168,
+          "command_valid_frames": 168,
+          "ego_dynamic_state_valid_frames": 168,
+          "camera_counts": {
+            "CAM_F0": {
+              "checked": 168,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 97,
+              "file_found": 71
+            },
+            "CAM_L0": {
+              "checked": 168,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 97,
+              "file_found": 71
+            },
+            "CAM_R0": {
+              "checked": 168,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 97,
+              "file_found": 71
+            },
+            "CAM_L1": {
+              "checked": 168,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 97,
+              "file_found": 71
+            },
+            "CAM_R1": {
+              "checked": 168,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 97,
+              "file_found": 71
+            },
+            "CAM_L2": {
+              "checked": 168,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 97,
+              "file_found": 71
+            },
+            "CAM_R2": {
+              "checked": 168,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 97,
+              "file_found": 71
+            },
+            "CAM_B0": {
+              "checked": 168,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 97,
+              "file_found": 71
+            }
+          },
+          "missing_image_examples": [
+            {
+              "frame_index": 0,
+              "camera": "CAM_F0",
+              "relative_path": "2021.06.14.18.42.45_veh-12_00968_01052/CAM_F0/ee81fbfeee4954f2.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_L0",
+              "relative_path": "2021.06.14.18.42.45_veh-12_00968_01052/CAM_L0/ff3901a026375bec.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_R0",
+              "relative_path": "2021.06.14.18.42.45_veh-12_00968_01052/CAM_R0/be07443cfa6959fc.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_L1",
+              "relative_path": "2021.06.14.18.42.45_veh-12_00968_01052/CAM_L1/b2dc58fb668f59ac.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_R1",
+              "relative_path": "2021.06.14.18.42.45_veh-12_00968_01052/CAM_R1/a82ee8fcbb03552c.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_L2",
+              "relative_path": "2021.06.14.18.42.45_veh-12_00968_01052/CAM_L2/d5f8d5f9f0245fc1.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_R2",
+              "relative_path": "2021.06.14.18.42.45_veh-12_00968_01052/CAM_R2/3f07bbb850805822.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_B0",
+              "relative_path": "2021.06.14.18.42.45_veh-12_00968_01052/CAM_B0/97198b87e4a15d3c.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_F0",
+              "relative_path": "2021.06.14.18.42.45_veh-12_00968_01052/CAM_F0/d446dc6498265d16.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_L0",
+              "relative_path": "2021.06.14.18.42.45_veh-12_00968_01052/CAM_L0/58390c69e3b65ac5.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_R0",
+              "relative_path": "2021.06.14.18.42.45_veh-12_00968_01052/CAM_R0/5b6f8d6083895139.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_L1",
+              "relative_path": "2021.06.14.18.42.45_veh-12_00968_01052/CAM_L1/b0c434deb6615fd6.jpg"
+            }
+          ]
+        },
+        {
+          "log_file": "2021.07.16.16.01.30_veh-38_03893_05253.pkl",
+          "frame_count": 2720,
+          "checked_frame_count": 2720,
+          "sensor_log_directory_present": true,
+          "frame_keys": [
+            "anns",
+            "cams",
+            "can_bus",
+            "driving_command",
+            "ego2global",
+            "ego2global_rotation",
+            "ego2global_translation",
+            "ego_dynamic_state",
+            "flow_gt_final_path",
+            "frame_idx",
+            "lidar2ego",
+            "lidar2ego_rotation",
+            "lidar2ego_translation",
+            "lidar2global",
+            "lidar_path",
+            "log_name",
+            "log_token",
+            "map_location",
+            "occ_gt_final_path",
+            "roadblock_ids",
+            "sample_next",
+            "sample_prev",
+            "scene_name",
+            "scene_token",
+            "timestamp",
+            "token",
+            "traffic_lights",
+            "vehicle_name"
+          ],
+          "timestamps": {
+            "missing": 0,
+            "non_increasing_pairs": 0,
+            "first": 1626455574100340,
+            "last": 1626456933599794,
+            "median_interval_seconds": 0.499957,
+            "min_interval_seconds": 0.499434,
+            "max_interval_seconds": 0.500673
+          },
+          "pose_valid_frames": 2720,
+          "command_valid_frames": 2720,
+          "ego_dynamic_state_valid_frames": 2720,
+          "camera_counts": {
+            "CAM_F0": {
+              "checked": 2720,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 2386,
+              "file_found": 334
+            },
+            "CAM_L0": {
+              "checked": 2720,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 2386,
+              "file_found": 334
+            },
+            "CAM_R0": {
+              "checked": 2720,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 2386,
+              "file_found": 334
+            },
+            "CAM_L1": {
+              "checked": 2720,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 2386,
+              "file_found": 334
+            },
+            "CAM_R1": {
+              "checked": 2720,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 2386,
+              "file_found": 334
+            },
+            "CAM_L2": {
+              "checked": 2720,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 2386,
+              "file_found": 334
+            },
+            "CAM_R2": {
+              "checked": 2720,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 2386,
+              "file_found": 334
+            },
+            "CAM_B0": {
+              "checked": 2720,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 2386,
+              "file_found": 334
+            }
+          },
+          "missing_image_examples": [
+            {
+              "frame_index": 0,
+              "camera": "CAM_F0",
+              "relative_path": "2021.07.16.16.01.30_veh-38_03893_05253/CAM_F0/a6894f30fd535f9d.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_L0",
+              "relative_path": "2021.07.16.16.01.30_veh-38_03893_05253/CAM_L0/bc539c419c945c3d.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_R0",
+              "relative_path": "2021.07.16.16.01.30_veh-38_03893_05253/CAM_R0/9ae38e1cfe1751ae.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_L1",
+              "relative_path": "2021.07.16.16.01.30_veh-38_03893_05253/CAM_L1/fccaf78855f759a7.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_R1",
+              "relative_path": "2021.07.16.16.01.30_veh-38_03893_05253/CAM_R1/3ac1ec6c48275012.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_L2",
+              "relative_path": "2021.07.16.16.01.30_veh-38_03893_05253/CAM_L2/25eb999ab2e65902.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_R2",
+              "relative_path": "2021.07.16.16.01.30_veh-38_03893_05253/CAM_R2/32d5affdd2cf5db9.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_B0",
+              "relative_path": "2021.07.16.16.01.30_veh-38_03893_05253/CAM_B0/ffd7d8d360675837.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_F0",
+              "relative_path": "2021.07.16.16.01.30_veh-38_03893_05253/CAM_F0/e5ffff0a61f7577b.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_L0",
+              "relative_path": "2021.07.16.16.01.30_veh-38_03893_05253/CAM_L0/65eeed76e8575c05.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_R0",
+              "relative_path": "2021.07.16.16.01.30_veh-38_03893_05253/CAM_R0/d4ab0396dd425bfd.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_L1",
+              "relative_path": "2021.07.16.16.01.30_veh-38_03893_05253/CAM_L1/de757e9b30c455a2.jpg"
+            }
+          ]
+        },
+        {
+          "log_file": "2021.08.24.17.34.27_veh-45_01478_01553.pkl",
+          "frame_count": 150,
+          "checked_frame_count": 150,
+          "sensor_log_directory_present": true,
+          "frame_keys": [
+            "anns",
+            "cams",
+            "can_bus",
+            "driving_command",
+            "ego2global",
+            "ego2global_rotation",
+            "ego2global_translation",
+            "ego_dynamic_state",
+            "flow_gt_final_path",
+            "frame_idx",
+            "lidar2ego",
+            "lidar2ego_rotation",
+            "lidar2ego_translation",
+            "lidar2global",
+            "lidar_path",
+            "log_name",
+            "log_token",
+            "map_location",
+            "occ_gt_final_path",
+            "roadblock_ids",
+            "sample_next",
+            "sample_prev",
+            "scene_name",
+            "scene_token",
+            "timestamp",
+            "token",
+            "traffic_lights",
+            "vehicle_name"
+          ],
+          "timestamps": {
+            "missing": 0,
+            "non_increasing_pairs": 0,
+            "first": 1629828097599787,
+            "last": 1629828172099927,
+            "median_interval_seconds": 0.500008,
+            "min_interval_seconds": 0.499554,
+            "max_interval_seconds": 0.500471
+          },
+          "pose_valid_frames": 150,
+          "command_valid_frames": 150,
+          "ego_dynamic_state_valid_frames": 150,
+          "camera_counts": {
+            "CAM_F0": {
+              "checked": 150,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 62,
+              "file_found": 88
+            },
+            "CAM_L0": {
+              "checked": 150,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 62,
+              "file_found": 88
+            },
+            "CAM_R0": {
+              "checked": 150,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 62,
+              "file_found": 88
+            },
+            "CAM_L1": {
+              "checked": 150,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 62,
+              "file_found": 88
+            },
+            "CAM_R1": {
+              "checked": 150,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 62,
+              "file_found": 88
+            },
+            "CAM_L2": {
+              "checked": 150,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 62,
+              "file_found": 88
+            },
+            "CAM_R2": {
+              "checked": 150,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 62,
+              "file_found": 88
+            },
+            "CAM_B0": {
+              "checked": 150,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 62,
+              "file_found": 88
+            }
+          },
+          "missing_image_examples": [
+            {
+              "frame_index": 0,
+              "camera": "CAM_F0",
+              "relative_path": "2021.08.24.17.34.27_veh-45_01478_01553/CAM_F0/859e0b9fbd695430.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_L0",
+              "relative_path": "2021.08.24.17.34.27_veh-45_01478_01553/CAM_L0/3d8c9cb3a10b565f.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_R0",
+              "relative_path": "2021.08.24.17.34.27_veh-45_01478_01553/CAM_R0/abddad78a8aa54d0.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_L1",
+              "relative_path": "2021.08.24.17.34.27_veh-45_01478_01553/CAM_L1/1ffd1903a4475c39.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_R1",
+              "relative_path": "2021.08.24.17.34.27_veh-45_01478_01553/CAM_R1/a7f23ce1bdc85266.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_L2",
+              "relative_path": "2021.08.24.17.34.27_veh-45_01478_01553/CAM_L2/3c84b3350a26579a.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_R2",
+              "relative_path": "2021.08.24.17.34.27_veh-45_01478_01553/CAM_R2/831dca8842915bb2.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_B0",
+              "relative_path": "2021.08.24.17.34.27_veh-45_01478_01553/CAM_B0/1d4fec86948d5ddd.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_F0",
+              "relative_path": "2021.08.24.17.34.27_veh-45_01478_01553/CAM_F0/ce6b53bae7f751ff.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_L0",
+              "relative_path": "2021.08.24.17.34.27_veh-45_01478_01553/CAM_L0/746667203d1a5781.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_R0",
+              "relative_path": "2021.08.24.17.34.27_veh-45_01478_01553/CAM_R0/ed64d4b856ed5413.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_L1",
+              "relative_path": "2021.08.24.17.34.27_veh-45_01478_01553/CAM_L1/61d086456aa1577e.jpg"
+            }
+          ]
+        },
+        {
+          "log_file": "2021.10.01.13.28.54_veh-28_00995_01087.pkl",
+          "frame_count": 184,
+          "checked_frame_count": 184,
+          "sensor_log_directory_present": true,
+          "frame_keys": [
+            "anns",
+            "cams",
+            "can_bus",
+            "driving_command",
+            "ego2global",
+            "ego2global_rotation",
+            "ego2global_translation",
+            "ego_dynamic_state",
+            "flow_gt_final_path",
+            "frame_idx",
+            "lidar2ego",
+            "lidar2ego_rotation",
+            "lidar2ego_translation",
+            "lidar2global",
+            "lidar_path",
+            "log_name",
+            "log_token",
+            "map_location",
+            "occ_gt_final_path",
+            "roadblock_ids",
+            "sample_next",
+            "sample_prev",
+            "scene_name",
+            "scene_token",
+            "timestamp",
+            "token",
+            "traffic_lights",
+            "vehicle_name"
+          ],
+          "timestamps": {
+            "missing": 0,
+            "non_increasing_pairs": 0,
+            "first": 1633096090699975,
+            "last": 1633096182199772,
+            "median_interval_seconds": 0.499972,
+            "min_interval_seconds": 0.499763,
+            "max_interval_seconds": 0.500288
+          },
+          "pose_valid_frames": 184,
+          "command_valid_frames": 184,
+          "ego_dynamic_state_valid_frames": 184,
+          "camera_counts": {
+            "CAM_F0": {
+              "checked": 184,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 136,
+              "file_found": 48
+            },
+            "CAM_L0": {
+              "checked": 184,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 136,
+              "file_found": 48
+            },
+            "CAM_R0": {
+              "checked": 184,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 136,
+              "file_found": 48
+            },
+            "CAM_L1": {
+              "checked": 184,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 136,
+              "file_found": 48
+            },
+            "CAM_R1": {
+              "checked": 184,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 136,
+              "file_found": 48
+            },
+            "CAM_L2": {
+              "checked": 184,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 136,
+              "file_found": 48
+            },
+            "CAM_R2": {
+              "checked": 184,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 136,
+              "file_found": 48
+            },
+            "CAM_B0": {
+              "checked": 184,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 136,
+              "file_found": 48
+            }
+          },
+          "missing_image_examples": [
+            {
+              "frame_index": 5,
+              "camera": "CAM_F0",
+              "relative_path": "2021.10.01.13.28.54_veh-28_00995_01087/CAM_F0/795e6898c96c5902.jpg"
+            },
+            {
+              "frame_index": 5,
+              "camera": "CAM_L0",
+              "relative_path": "2021.10.01.13.28.54_veh-28_00995_01087/CAM_L0/10c2106083c1560e.jpg"
+            },
+            {
+              "frame_index": 5,
+              "camera": "CAM_R0",
+              "relative_path": "2021.10.01.13.28.54_veh-28_00995_01087/CAM_R0/93784071bf8f5f47.jpg"
+            },
+            {
+              "frame_index": 5,
+              "camera": "CAM_L1",
+              "relative_path": "2021.10.01.13.28.54_veh-28_00995_01087/CAM_L1/63e1056932875e5e.jpg"
+            },
+            {
+              "frame_index": 5,
+              "camera": "CAM_R1",
+              "relative_path": "2021.10.01.13.28.54_veh-28_00995_01087/CAM_R1/dc408714c21e5926.jpg"
+            },
+            {
+              "frame_index": 5,
+              "camera": "CAM_L2",
+              "relative_path": "2021.10.01.13.28.54_veh-28_00995_01087/CAM_L2/1171f3f70fc65683.jpg"
+            },
+            {
+              "frame_index": 5,
+              "camera": "CAM_R2",
+              "relative_path": "2021.10.01.13.28.54_veh-28_00995_01087/CAM_R2/96191e24a06651f2.jpg"
+            },
+            {
+              "frame_index": 5,
+              "camera": "CAM_B0",
+              "relative_path": "2021.10.01.13.28.54_veh-28_00995_01087/CAM_B0/0652fc525f4f5633.jpg"
+            },
+            {
+              "frame_index": 6,
+              "camera": "CAM_F0",
+              "relative_path": "2021.10.01.13.28.54_veh-28_00995_01087/CAM_F0/30577d62d366500f.jpg"
+            },
+            {
+              "frame_index": 6,
+              "camera": "CAM_L0",
+              "relative_path": "2021.10.01.13.28.54_veh-28_00995_01087/CAM_L0/31badf53d7a557ea.jpg"
+            },
+            {
+              "frame_index": 6,
+              "camera": "CAM_R0",
+              "relative_path": "2021.10.01.13.28.54_veh-28_00995_01087/CAM_R0/086903d5b56b5814.jpg"
+            },
+            {
+              "frame_index": 6,
+              "camera": "CAM_L1",
+              "relative_path": "2021.10.01.13.28.54_veh-28_00995_01087/CAM_L1/72ea8b953bed5d1a.jpg"
+            }
+          ]
+        },
+        {
+          "log_file": "2021.10.11.08.31.07_veh-50_02360_02684.pkl",
+          "frame_count": 648,
+          "checked_frame_count": 648,
+          "sensor_log_directory_present": true,
+          "frame_keys": [
+            "anns",
+            "cams",
+            "can_bus",
+            "driving_command",
+            "ego2global",
+            "ego2global_rotation",
+            "ego2global_translation",
+            "ego_dynamic_state",
+            "flow_gt_final_path",
+            "frame_idx",
+            "lidar2ego",
+            "lidar2ego_rotation",
+            "lidar2ego_translation",
+            "lidar2global",
+            "lidar_path",
+            "log_name",
+            "log_token",
+            "map_location",
+            "occ_gt_final_path",
+            "roadblock_ids",
+            "sample_next",
+            "sample_prev",
+            "scene_name",
+            "scene_token",
+            "timestamp",
+            "token",
+            "traffic_lights",
+            "vehicle_name"
+          ],
+          "timestamps": {
+            "missing": 0,
+            "non_increasing_pairs": 0,
+            "first": 1633943481199607,
+            "last": 1633943804699922,
+            "median_interval_seconds": 0.499986,
+            "min_interval_seconds": 0.499571,
+            "max_interval_seconds": 0.500503
+          },
+          "pose_valid_frames": 648,
+          "command_valid_frames": 648,
+          "ego_dynamic_state_valid_frames": 648,
+          "camera_counts": {
+            "CAM_F0": {
+              "checked": 648,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 414,
+              "file_found": 234
+            },
+            "CAM_L0": {
+              "checked": 648,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 414,
+              "file_found": 234
+            },
+            "CAM_R0": {
+              "checked": 648,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 414,
+              "file_found": 234
+            },
+            "CAM_L1": {
+              "checked": 648,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 414,
+              "file_found": 234
+            },
+            "CAM_R1": {
+              "checked": 648,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 414,
+              "file_found": 234
+            },
+            "CAM_L2": {
+              "checked": 648,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 414,
+              "file_found": 234
+            },
+            "CAM_R2": {
+              "checked": 648,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 414,
+              "file_found": 234
+            },
+            "CAM_B0": {
+              "checked": 648,
+              "metadata_missing": 0,
+              "invalid_path": 0,
+              "file_missing": 414,
+              "file_found": 234
+            }
+          },
+          "missing_image_examples": [
+            {
+              "frame_index": 0,
+              "camera": "CAM_F0",
+              "relative_path": "2021.10.11.08.31.07_veh-50_02360_02684/CAM_F0/755e9b1d4de056f0.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_L0",
+              "relative_path": "2021.10.11.08.31.07_veh-50_02360_02684/CAM_L0/a9563ef43948575b.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_R0",
+              "relative_path": "2021.10.11.08.31.07_veh-50_02360_02684/CAM_R0/bd501fb2ec3f5caa.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_L1",
+              "relative_path": "2021.10.11.08.31.07_veh-50_02360_02684/CAM_L1/3a44b804460e5f1b.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_R1",
+              "relative_path": "2021.10.11.08.31.07_veh-50_02360_02684/CAM_R1/0d4ec8680a0f56ba.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_L2",
+              "relative_path": "2021.10.11.08.31.07_veh-50_02360_02684/CAM_L2/85aaeb1b89635c39.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_R2",
+              "relative_path": "2021.10.11.08.31.07_veh-50_02360_02684/CAM_R2/3164536799b951b6.jpg"
+            },
+            {
+              "frame_index": 0,
+              "camera": "CAM_B0",
+              "relative_path": "2021.10.11.08.31.07_veh-50_02360_02684/CAM_B0/f3c388ec396f5c22.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_F0",
+              "relative_path": "2021.10.11.08.31.07_veh-50_02360_02684/CAM_F0/f2be2780dd7754d9.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_L0",
+              "relative_path": "2021.10.11.08.31.07_veh-50_02360_02684/CAM_L0/4c9310b825c55f28.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_R0",
+              "relative_path": "2021.10.11.08.31.07_veh-50_02360_02684/CAM_R0/ad69421242135585.jpg"
+            },
+            {
+              "frame_index": 1,
+              "camera": "CAM_L1",
+              "relative_path": "2021.10.11.08.31.07_veh-50_02360_02684/CAM_L1/08795825e74f5fb2.jpg"
+            }
+          ]
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "cross_dataset_log_overlap": [
+    {
+      "datasets": [
+        "mini",
+        "trainval"
+      ],
+      "shared_log_files": 54,
+      "examples": [
+        "2021.05.12.22.00.38_veh-35_01008_01518",
+        "2021.05.12.22.28.35_veh-35_00620_01164",
+        "2021.05.12.23.36.44_veh-35_00152_00504",
+        "2021.05.12.23.36.44_veh-35_01133_01535",
+        "2021.05.12.23.36.44_veh-35_02035_02387",
+        "2021.06.07.12.54.00_veh-35_01843_02314",
+        "2021.06.07.18.53.26_veh-26_00005_00427",
+        "2021.06.08.12.54.54_veh-26_04262_04732",
+        "2021.06.08.14.35.24_veh-26_02555_03004",
+        "2021.06.08.16.31.33_veh-38_01589_02072"
+      ]
+    }
+  ],
+  "environment": {
+    "python": "3.10.21",
+    "python_executable": "/data/chaosheng/miniconda3/envs/lingbot-map/bin/python",
+    "platform": "Linux-5.4.278-1.el7.elrepo.x86_64-x86_64-with-glibc2.39",
+    "packages": {
+      "numpy": "2.2.6",
+      "torch": "2.8.0+cu128",
+      "pytest": null,
+      "Pillow": "12.3.0",
+      "navsim": null,
+      "transformers": null
+    },
+    "nvidia_smi": {
+      "available": false,
+      "returncode": 9,
+      "output": "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+    },
+    "repository_revisions": {
+      "RePlanWorld": "4298a15",
+      "WA-JEPA": "bec2966",
+      "Drive-JEPA": "e21f474",
+      "DriveDreamer-Policy": "8cefcac",
+      "SimWAM": "68b426c",
+      "navsim": "0a380a9"
+    },
+    "checkpoint_inventory": {
+      "searched_roots": [
+        "/data/chaosheng/RePlanWorld",
+        "/data/chaosheng/WA-JEPA",
+        "/data/chaosheng/Drive-JEPA",
+        "/data/chaosheng/DriveDreamer-Policy",
+        "/data/chaosheng/SimWAM"
+      ],
+      "candidate_count": 0,
+      "candidates": [],
+      "errors": []
+    }
+  },
+  "phase0_gate": {
+    "decision": "NO_GO",
+    "blockers": [
+      "mini: image availability checked only on a sample",
+      "trainval: image availability checked only on a sample",
+      "trainval: some logs have no sensor directory",
+      "trainval: missing image files in checked frames",
+      "GPU unavailable to nvidia-smi in this runtime"
+    ]
+  }
+}

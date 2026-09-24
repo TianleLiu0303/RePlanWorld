@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+*.egg-info/
+build/
+dist/
+
+# Large local inputs and generated artifacts
+/data/
+/artifacts/
+/cache/
+/checkpoints/
+/runs/
+/outputs/
+/reports/**/raw/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.pkl
+*.npy
+*.npz
